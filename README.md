@@ -20,6 +20,8 @@ Past 7 Days - [All Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.
 
 ![1673978307905](image/README/1673978307905.png)
 
+[Visit Interactive Map](https://nerdosth.github.io/leaflet-challenge/Leaflet-Part-1/)
+
 **Circle Radius**: Represents the magnitude of the earthquake 
 
 **Color**: Represents the depth of the Earthquake: "The depths of earthquakes give important information about the Earth's structure and the tectonic setting where the earthquakes are occurring" -usgs.gov
