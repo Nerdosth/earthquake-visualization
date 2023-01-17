@@ -20,7 +20,7 @@ Past 7 Days - [All Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.
 
 ![1673978307905](image/README/1673978307905.png)
 
-[Visit Interactive Map](https://nerdosth.github.io/leaflet-challenge/Leaflet-Part-1/)
+[Visit Interactive Map](https://nerdosth.github.io/leaflet-challenge/Leaflet-Part-1/) (CTRL+click)
 
 **Circle Radius**: Represents the magnitude of the earthquake 
 
