@@ -11,9 +11,9 @@ This project visualizes earthquake data from the USGS (United States Geological 
 
 ## Installation
 
-1. Clone the repository or download the provided code and extract it toa folder on your local machine.
+1. Clone the repository
 2. Ensure you have a modern web browser installed.
-3. Open the HTML file containing the map in your web browser.
+3. Open the `index.html` file containing the map in your web browser locally.
 
 ## Usage
 
@@ -25,9 +25,3 @@ The earthquake data is automatically fetched and displayed on the map when you o
 * The legend at the bottom-right corner of the map shows the depth color codes.
 
 ![1673978307905](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/erdos/OneDrive/Documents/GitHub/earthquake-visualization/image/README/1673978307905.png)
-
-The map view can be toggled between "Street View" and other available views using the controls at the top-right corner of the map.
-
-# Live Site
-
-[Visit Interactive Map](https://nerdosth.github.io/leaflet-challenge/Leaflet-Part-1/) (CTRL+click)
