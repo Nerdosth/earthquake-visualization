@@ -1,27 +1,33 @@
-# leaflet-challenge
+# Earthquake Data Visualization
 
-# Background
+This project visualizes earthquake data from the USGS (United States Geological Survey) on a map using Leaflet.js. Earthquake data from the past week is fetched from the USGS API and displayed on the map with circle markers representing the location, magnitude, and depth of each earthquake.
 
-The United States Geological Survey, or USGS for short, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
+## Requirements
 
-The USGS is interested in building a new set of tools that will allow them to visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. In this challenge, you have been tasked with developing a way to visualize USGS data that will allow them to better educate the public and other government organizations (and hopefully secure more funding) on issues facing our planet
+- JavaScript
+- Leaflet.js
+- D3.js
+- A modern web browser (e.g., Google Chrome, Mozilla Firefox)
 
----
+## Installation
 
-# Data Source
+1. Clone the repository or download the provided code and extract it toa folder on your local machine.
+2. Ensure you have a modern web browser installed.
+3. Open the HTML file containing the map in your web browser.
 
-USGS GeoJSON Data Feed: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+## Usage
 
-Data used for this visual: 
+The earthquake data is automatically fetched and displayed on the map when you open the HTML file.
 
-Past 7 Days - [All Earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson)
+* Circle markers represent the location, magnitude, and depth of each earthquake.
+* The size of the markers is proportional to the magnitude, and the color indicates the depth.
+* Hover over a circle marker to see a popup with more details about the earthquake, including its magnitude, depth, location, and date.
+* The legend at the bottom-right corner of the map shows the depth color codes.
 
-# Earthquake Visual Example
+![1673978307905](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/erdos/OneDrive/Documents/GitHub/earthquake-visualization/image/README/1673978307905.png)
 
-![1673978307905](image/README/1673978307905.png)
+The map view can be toggled between "Street View" and other available views using the controls at the top-right corner of the map.
+
+# Live Site
 
 [Visit Interactive Map](https://nerdosth.github.io/leaflet-challenge/Leaflet-Part-1/) (CTRL+click)
-
-**Circle Radius**: Represents the magnitude of the earthquake 
-
-**Color**: Represents the depth of the Earthquake: "The depths of earthquakes give important information about the Earth's structure and the tectonic setting where the earthquakes are occurring" -usgs.gov
